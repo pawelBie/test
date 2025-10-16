@@ -10,4 +10,4 @@ Automated CI/CD pipeline that runs upon every push or PR to main branch:
 Prerequisites:
 * EKS cluster running in AWS
 * ECR registry, proper IAM configuration in place
-* Ensure the AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY are configured in your GitHub repository settings.
+* Ensure the AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY are configured in your GitHub repository settings. Dummy ones are stored in this public repo
