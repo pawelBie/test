@@ -10,7 +10,7 @@ env:
   AWS_REGION: us-east-1
   ECR_REPOSITORY: test-app
   EKS_CLUSTER_NAME: test-eks-cluster-name
-  HELM_CHART_PATH: ./helm
+  HELM_CHART_PATH: ./helm/test-app
   RELEASE_NAME: test-app
   NAMESPACE: test-app
 
