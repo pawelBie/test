@@ -1,0 +1,7 @@
+.DS_Store
+# Git
+.git/
+.gitignore
+# Various IDEs
+.idea/
+.vscode/

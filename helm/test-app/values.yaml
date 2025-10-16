@@ -1,0 +1,13 @@
+replicaCount: 1
+
+image:
+  repository: "test-app"
+  pullPolicy: Always
+  tag: "1"
+
+service:
+  type: ClusterIP
+  port: 8000
+
+ingress:
+  domain: test-app.test.io
