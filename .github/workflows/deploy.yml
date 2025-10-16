@@ -2,7 +2,7 @@ name: Deploy test-app on EKS
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main]
   pull_request:
 
 env:
